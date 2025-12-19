@@ -21,11 +21,11 @@ type Query{
 }
 
 type Mutation{
-    createPost(title: String!, content: String!): Post!
+    createPost(title: String!, content: String!): Post
     deletePost(id: ID!): Boolean!
-    updatePost(id: ID!, title: String, content: String): Post!
+    updatePost(id: ID!, title: String, content: String): Post
 
-    createComment(postId: ID!, author: String!, text: String!): Comment!
+    createComment(postId: ID!, author: String!, text: String!): Comment
     deleteComment(id: ID!): Boolean!
-    updateComment(id: ID!, text: String): Comment!
+    updateComment(id: ID!, text: String): Comment
 }

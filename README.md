@@ -119,6 +119,7 @@ Este projeto permite explorar:
 ```
 /src
 ├─ controller/ (PostController, CommentController)
+├─ exception/ (GraphQlExceptionResolver)
 ├─ model/ (Post, Comment)
 ├─ repository/ (PostRepository, CommentRepository)
 ├─ resolver/ (PostResolver)
