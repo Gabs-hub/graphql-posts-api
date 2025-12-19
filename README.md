@@ -31,7 +31,7 @@ Campos:
 - `content`: conteúdo do post
 - `comments`: lista de comentários associados ao post
 
----
+___
 
 ### Comment
 Representa um comentário vinculado a um post.
@@ -42,7 +42,7 @@ Campos:
 - `author`: autor do comentário
 - `text`: conteúdo do comentário
 
----
+___
 
 ### Queries
 
@@ -58,7 +58,7 @@ Campos:
 - `getAllComments`  
   Retorna **todos os comentários** do sistema.
 
----
+___
 
 ### Mutations
 
@@ -130,9 +130,9 @@ Este projeto permite explorar:
 
 ## Execução
 
-1. Suba o MongoDB (`27017`)
-2. Execute a aplicação
-3. Acesse o GraphiQL e explore as funcionalidades ou o schema via introspection.
+1. Suba o MongoDB (`27017`) -> Pode ser pelo docker ou pelo próprio mongo instalado
+2. Execute o GraphqlApplication.java
+3. Acesse o /graphiql e explore as funcionalidades ou o schema via introspection.
 
 ## ⚠️ Aviso
 
